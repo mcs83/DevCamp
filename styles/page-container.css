@@ -1,0 +1,32 @@
+/* Content styles */
+.content-wrapper{
+    display:flex;
+    justify-content: flex-end;
+    background: rgb(66,68,80);
+    background: linear-gradient(138deg, rgba(66,68,80,1) 0%, rgba(50,52,57,1) 41%, rgba(24,24,24,1) 61%);
+}
+.content-wrapper > .content-column-left{
+    letter-spacing: 1px;
+    line-height: 30px;
+    margin:25px 0px 0px 40px;
+}
+.content-wrapper > .content-column-left > h1 > .title-semi-bold {
+    font-weight:bold; 
+}
+.content-wrapper > .image-container img{
+    width: 380px;
+    margin:30px 0px 0px 30px;
+    float:right;/* pone la foto a la derecha. */
+    box-shadow: -10px 5px 8px -7px rgba(0,0,0,0.51);
+    border-bottom: 5px solid black;
+}
+.content-wrapper > .image-container p{
+    margin:40px 0px -27px 35px;
+    font-weight: 700;
+    font-size: 0.8em;
+    
+}
+.content-wrapper > .image-container > p > .blue-letter{
+    color:rgb(107,221,255);
+    
+}

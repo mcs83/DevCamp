@@ -1,0 +1,21 @@
+/* Footer styles */
+.footer>.footer-wrapper{
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.footer >.footer-wrapper >.footer-grid {
+    border: 1px solid rgb(65,66,68);
+    font-weight: 400;
+    font-size:0.9em;
+    background-color: rgb(41,42,48);
+    padding:10px;
+    text-align: center;
+
+}
+.footer >.footer-wrapper >.footer-grid >.title-bolder{
+    font-weight: 900;
+    font-size: 1.2em;
+    letter-spacing: -0.1em;
+
+}

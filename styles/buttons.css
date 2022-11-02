@@ -1,0 +1,41 @@
+.btn{
+    background-color:  rgb(47,49,55);
+    color: white;
+    font-weight: 700; 
+    padding: 10px 15px;
+    border: 1px solid  rgb(47,49,55);
+    border-radius: 3px;
+    outline: none;
+    transition: all 0.3s;
+}
+.btn:active{
+    color:rgb(65,199,102);
+}
+.btn-green{
+    background-color:  rgb(65,199,102);
+    margin-right: 5px;
+    color: black;
+    font-size: 1.5em; 
+    padding: 12px 20px;
+    border: 1px solid  black;
+    border-radius: 3px;
+    outline: none;
+    transition: all 0.3s;
+}
+.btn-green:active{
+    color:white;
+}
+.btn-black{
+    background-color:  black;
+    color: white;
+    font-size: 1.5em; 
+    font-weight: 400; 
+    padding: 10px 20px;
+    border: 1px solid  black;
+    border-radius: 3px;
+    outline: none;
+    transition: all 0.3s;
+}
+.btn-black:active{
+    color:rgb(65,199,102);
+}

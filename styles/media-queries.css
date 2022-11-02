@@ -1,0 +1,28 @@
+@media (max-width: 900px){
+    .header-wrapper{
+        flex-direction: column;
+        height: 100%;
+    }
+    .header-wrapper > .left-column{
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .header-wrapper > .center-column{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .header-wrapper > .right-column{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 100%;
+        text-align: center;
+    }
+    .content-wrapper{
+        flex-direction: column;
+        height: 100%;
+    }
+    .footer{
+        width: 100%;
+
+    }
+}
